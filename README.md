@@ -40,7 +40,7 @@ The website is cross-platform, it works on both the browser, and as a standalone
 </p>
 
 # Data Source API
-Coingecko's api and terms of service may update after the date this project was uploaded. When using this code you will have to update accordingly to fit the guidelines.
+IEX Group's api and terms of service may update after the date this project was uploaded. When using this code you will have to update accordingly to fit the guidelines.
 - https://iexcloud.io/docs/api/
 
 # Request Limits 
