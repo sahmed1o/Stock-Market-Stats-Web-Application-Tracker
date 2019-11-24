@@ -17,10 +17,8 @@ Here are the intervals at which the script commands should run as a cron job:
 
 - every 15mins     =>   */15	*	*	*	*  => wget -O - -q https://website.com/cron/updatedat.php >/dev/null 2>&1 
 - once a day 12am  =>     0       0       *       *       *  => wget -O - -q https://website.com/cron/updatenews.php >/dev/null 2>&1
-- every other day  =>     0       0      */2      *       *  => wget -O - -q https://website.com/cron/updateexchange.php >/dev/null 2>&1
-- every 15 minutes =>   */15	*	*	*	*  => wget -O - -q https://website.com/cron/updatedailycoins.php >/dev/null 2>&1
-- once a day 11pm   =>     0      23       *       *       *  =>  wget -O - -q https://website.com/cron/updatehistoricdata.php >/dev/null 2>&1
-= once a day 12am   =>     0       0       *       *       *  =>  wget -O - -q https://website.com/cron/deletedailydat.php >/dev/null 2>&1
+- once a day 11pm   =>     0      23       *       *       *  =>  wget -O - -q https://website.com/cron/gethistoricdat.php >/dev/null 2>&1
+= once a day 12am   =>     0       0       *       *       *  =>  wget -O - -q https://website.com/cron/getallstocksymbols.php >/dev/null 2>&1
 
 
 # Historical Data
