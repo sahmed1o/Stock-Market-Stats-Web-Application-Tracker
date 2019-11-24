@@ -34,7 +34,7 @@ The website is cross-platform, it works on both the browser, and as a standalone
     <img src="screenshots/screen1.png"  height="300" />
     <img src="screenshots/screen2.png"  height="300" />
     <img src="screenshots/screen3.png"  height="300" />
-    <img src="screenshots/screen5.png"  height="300" />
+    <img src="screenshots/screen4.png"  height="300" />
 </p>
 
 # Data Source API
